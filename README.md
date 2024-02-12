@@ -13,4 +13,9 @@ Welcome to the repository for Claim Verification and Evidence Extraction using B
 
 3. **Download Noun Phrase Documents**:
    - Access the noun phrase documents from [this source](https://public.ukp.informatik.tu-darmstadt.de/fever-2018-team-athene/document_retrieval_datasets.zip). These documents are crucial for identifying and extracting relevant entities and phrases associated with the claims.
+   
+## Running the Model
+
+To run the sentence retrieval and claim verification, please execute the `Bert_model_asp_1.ipynb` notebook on a GPU for optimal performance.
+
 
