@@ -21,11 +21,11 @@ To run the sentence retrieval and claim verification, please execute the `Bert_F
 
 ## tf-iDF Model
 
-NOTE: Apart from Step 1 (Wikipedia Database) all the files are provided in the repo. Hence each step can be executed independently except step 3 which requires the Eikipedia Data Dump.
+NOTE: This model uses the FEVER 1.0 Dataset from 2018
 
-Step 1: Downlaod the Wikipedia dataset from the FEVER website and unpack in wiki-pages folder within the repo
+Step 1: Downlaod the Wikipedia dataset from the FEVER website and unpack in "wiki-pages" folder within the repo. [source](https://fever.ai/dataset/fever.html)
 
-Step 2: download the train.jsonl file from the FEVER website in the main repo folder
+Step 2: download the train.jsonl file from the FEVER website in the main repo folder [source](https://fever.ai/dataset/fever.html)
 
 IMPORTANT for Step 3
 
