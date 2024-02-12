@@ -19,3 +19,26 @@ Welcome to the repository for Claim Verification and Evidence Extraction using B
 To run the sentence retrieval and claim verification, please execute the `Bert_Final.ipynb` notebook on a GPU for optimal performance.
 
 
+## tf-iDF Model
+
+NOTE: Apart from Step 1 (Wikipedia Database) all the files are provided in the repo. Hence each step can be executed independently except step 3 which requires the Eikipedia Data Dump.
+
+Step 1: Downlaod the Wikipedia dataset from the FEVER website and unpack in wiki-pages folder within the repo
+
+Step 2: download the train.jsonl file from the FEVER website in the main repo folder
+
+IMPORTANT for Step 3
+
+NOTE: "simplified_wiki.jsonl" is appended, not overwriten. Hence if the file already exists before running the code, it will lead to data duplication!!
+
+Step 3: Run Data_Preprocessing.ipynb to generate "simplified_wiki.jsonl" and "populated_samples.jsonl" files
+
+Step 4: Run Document_and_Sentence_Retrieval.ipynb to generate train and test data.
+
+Step 5: Run MLP_FEVER.ipynb
+
+Step x: To test accuracy without having to generate data, we have provided a stripped down version of the Retrieval code which only calculates the Retrieval Accuracy. This can be found at Retrieval_Accuracy.ipynb
+
+All files have relevant instructions in the first cell of the ipython files.
+
+
