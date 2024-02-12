@@ -16,6 +16,6 @@ Welcome to the repository for Claim Verification and Evidence Extraction using B
    
 ## Running the Model
 
-To run the sentence retrieval and claim verification, please execute the `Bert_model_asp_1.ipynb` notebook on a GPU for optimal performance.
+To run the sentence retrieval and claim verification, please execute the `Bert_Final.ipynb` notebook on a GPU for optimal performance.
 
 
